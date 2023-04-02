@@ -1,0 +1,133 @@
+*{
+    color: #29303D;
+}
+div:not(.musique div, .musique){ 
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+#wagon{
+    background-color: rgb(178, 251, 254);
+    padding: 7px 10px;
+    border-radius: 12px;
+}
+
+img{
+    width: 300px;
+    margin: auto;
+}
+#linkedin{
+    width: 20px;
+    margin: auto 3px;
+}
+#instagram{
+    width: 20px;
+    margin: auto 3px;
+}
+p{
+    width: 600px;
+    text-align: justify;
+}
+.musiquehaut{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.musiquehaut div{
+    width: 150px;
+    height: 150px;
+}
+
+.musiquehaut :hover{
+    background-image: none !important;
+}
+
+.musiquemid{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.musiquemid div{
+    width: 150px;
+    height: 150px;
+}
+
+.musiquemid :hover{
+    background-image: none !important;
+}
+
+.musiquebas{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 100px;
+}
+
+.musiquebas div{
+    width: 150px;
+    height: 150px;
+}
+
+.musiquebas :hover{
+    background-image: none !important;
+}
+.container {
+    width: 700px; 
+    margin: 40px auto; 
+  }
+  .card-white {
+    box-shadow: 2px 4px 12px #29303D;
+    margin: 40px auto;
+    padding: 12px;
+    background-color: #F6F4F4;
+  } 
+#chiffre1{
+    background-image: url("chiffre1.jpeg");
+    background-size: cover;
+}
+#chiffre2{
+    background-image: url("chiffre2.jpeg");
+    background-size: cover;
+}
+#chiffre3{
+    background-image: url("chiffre3.jpeg");
+    background-size: cover;
+}
+#chiffre4{
+    background-image: url("chiffre4.jpeg");
+    background-size: cover;
+}
+#chiffre5{
+    background-image: url("chiffre5.jpeg");
+    background-size: cover;
+}
+#chiffre6{
+    background-image: url("chiffre6.jpeg");
+    background-size: cover;
+}
+#chiffre7{
+    background-image: url("chiffre7.jpeg");
+    background-size: cover;
+}
+#chiffre8{
+    background-image: url("chiffre8.jpeg");
+    background-size: cover;
+}
+#chiffre9{
+    background-image: url("chiffre9.jpeg");
+    background-size: cover;
+}
+a{
+    text-decoration: none;
+}
+h2{
+    border: 1px solid black;
+    padding: 12px;
+    box-shadow: 2px 2px 2px;
+    color: rgb(8, 8, 59);
+}
+#contact{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
